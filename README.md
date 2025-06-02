@@ -21,7 +21,7 @@
 <br>Port Number: `55555`
 
 <br>
-_**If you wish to compile the files yourself, follow these steps:**_
+**If you wish to compile the files yourself, follow these steps:**
 
 ### OPTION 2: Run the Server
 1. First compile the java files for the server with the following command: 
