@@ -20,8 +20,7 @@
 <br>IP Address: `127.0.0.1`
 <br>Port Number: `55555`
 
-** If you wish to compile the files yourself, follow these steps: **
-
+### If you wish to compile the files yourself, follow these steps instead:
 ### OPTION 2: Run the Server
 1. First, compile the Java files for the server with the following command: 
 <br>`javac game/GameServer.java`
