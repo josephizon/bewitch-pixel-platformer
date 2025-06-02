@@ -20,9 +20,8 @@
 <br>IP Address: `127.0.0.1`
 <br>Port Number: `55555`
 
-<br> 
 <br>
-- If you wish to compile the files yourself, follow these steps: 
+- ***If you wish to compile the files yourself, follow these steps:***
 
 ### OPTION 2: Run the Server
 1. First compile the java files for the server with the following command: 
