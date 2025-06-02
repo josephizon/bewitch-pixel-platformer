@@ -19,7 +19,9 @@
 	that has been clearly noted with a proper citation in the comments 
 	of my program.
 */
+package game;
 
+import game.components.*; 
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;

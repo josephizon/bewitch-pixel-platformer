@@ -20,7 +20,7 @@
 	that has been clearly noted with a proper citation in the comments 
 	of my program.
 */
-
+package game;
 
 import java.io.*;
 import java.net.*;
@@ -75,7 +75,7 @@ public class GameServer {
         p1CheckedOrb1 = false;
         p1CheckedOrb2 = false;
         p1CheckedOrb3 = false;
-        p2CheckedOrb2 = false;
+        p2CheckedOrb1 = false;
         p2CheckedOrb2 = false;
         p2CheckedOrb3 = false;
 

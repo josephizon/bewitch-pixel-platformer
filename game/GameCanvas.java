@@ -20,7 +20,10 @@
 	that has been clearly noted with a proper citation in the comments 
 	of my program.
 */
+package game;
 
+
+import game.components.*; 
 import javax.swing.*;
 import java.awt.*;
 import java.util.*;
@@ -67,11 +70,11 @@ public class GameCanvas extends JComponent{
         p2Points = "00";
 
         try {
-            undertale = Font.createFont(Font.TRUETYPE_FONT, new File("MonsterFriendFore.otf")).deriveFont(25f);
+            undertale = Font.createFont(Font.TRUETYPE_FONT, new File("assets/MonsterFriendFore.otf")).deriveFont(25f);
             GraphicsEnvironment ge = 
             GraphicsEnvironment.getLocalGraphicsEnvironment();
-            ge.registerFont(Font.createFont(Font.TRUETYPE_FONT, new File("MonsterFriendFore.otf")));
-            background = ImageIO.read(new File("background.png"));
+            ge.registerFont(Font.createFont(Font.TRUETYPE_FONT, new File("assets/MonsterFriendFore.otf")));
+            background = ImageIO.read(new File("assets/background.png"));
         } catch (IOException|FontFormatException e) {
         }
 

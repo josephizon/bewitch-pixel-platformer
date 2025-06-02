@@ -19,6 +19,7 @@
 	that has been clearly noted with a proper citation in the comments 
 	of my program.
 */
+package game.components;
 
 import java.awt.*;
 import javax.imageio.*;
@@ -51,9 +52,9 @@ public class Platform{
             if(w == 800)
                 platform = null;
             else if(w == 150)
-                platform = ImageIO.read(new File("platform150.png"));
+                platform = ImageIO.read(new File("assets/platform150.png"));
             else if(w == 75)
-                platform = ImageIO.read(new File("platform75.png"));
+                platform = ImageIO.read(new File("assets/platform75.png"));
 
         } catch (IOException e) {
         }

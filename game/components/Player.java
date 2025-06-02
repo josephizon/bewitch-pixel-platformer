@@ -20,6 +20,7 @@
 	that has been clearly noted with a proper citation in the comments 
 	of my program.
 */
+package game.components;
 
 import java.awt.*;
 import javax.swing.ImageIcon;
@@ -77,18 +78,18 @@ public class Player{
 
             if(pID == 1)
             {
-                idleRightImg = new ImageIcon("p1-idle-right.gif").getImage();
-                idleLeftImg = new ImageIcon("p1-idle-left.gif").getImage();
-                runRightImg = new ImageIcon("p1-run-right.gif").getImage();
-                runLeftImg = new ImageIcon("p1-run-left.gif").getImage();
+                idleRightImg = new ImageIcon("assets/p1-idle-right.gif").getImage();
+                idleLeftImg = new ImageIcon("assets/p1-idle-left.gif").getImage();
+                runRightImg = new ImageIcon("assets/p1-run-right.gif").getImage();
+                runLeftImg = new ImageIcon("assets/p1-run-left.gif").getImage();
 
             }
             else
             {
-                idleRightImg = new ImageIcon("p2-idle-right.gif").getImage();
-                idleLeftImg = new ImageIcon("p2-idle-left.gif").getImage();
-                runRightImg = new ImageIcon("p2-run-right.gif").getImage();
-                runLeftImg = new ImageIcon("p2-run-left.gif").getImage();
+                idleRightImg = new ImageIcon("assets/p2-idle-right.gif").getImage();
+                idleLeftImg = new ImageIcon("assets/p2-idle-left.gif").getImage();
+                runRightImg = new ImageIcon("assets/p2-run-right.gif").getImage();
+                runLeftImg = new ImageIcon("assets/p2-run-left.gif").getImage();
             }
 
 

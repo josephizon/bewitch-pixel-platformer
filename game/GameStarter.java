@@ -20,8 +20,9 @@
 	that has been clearly noted with a proper citation in the comments 
 	of my program.
 */
+package game;
 
- public class GameStarter{   
+public class GameStarter{   
     /** This is the main method of the program. */
     public static void main(String[] args) {
 
