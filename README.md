@@ -35,3 +35,11 @@
 3. For the port number, input: 
 <br>`55555`
 4. Run another instance of the cmd to create the second player
+
+## 📷 Sample Screenshots
+
+### Server and Player CMD Running
+- <img width="1919" height="1200" alt="bewitch screenshot" src="https://github.com/user-attachments/assets/73b8c125-748f-4fab-9d00-379d95b72073" />
+
+### Two Players Ran through the local server
+- <img width="1288" height="509" alt="bewitch screenshot2" src="https://github.com/user-attachments/assets/27252a00-9db6-412e-bee6-10ca4b470935" />
